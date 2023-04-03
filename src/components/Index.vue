@@ -26,7 +26,6 @@
 <script>
 //import PopularFood from "@/services/PopularFood.js";
 import CardFood from "@/components/CardFood.vue";
-import axios from 'axios';
 export default {
   name: 'IndexPrincipal',
   data: () => {
