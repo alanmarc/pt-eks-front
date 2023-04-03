@@ -36,7 +36,7 @@ export default {
 
   mounted() {
         const filteredFoods = this.information.filter(food => {
-          return food.category.includes("Mewxican");
+          return food.category.includes("Mexican");
           });
         this.response = filteredFoods
   },
